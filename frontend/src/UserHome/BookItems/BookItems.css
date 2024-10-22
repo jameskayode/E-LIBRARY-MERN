@@ -1,0 +1,72 @@
+.bookItems{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 300px;
+    height: fit-content;
+    margin-top: 15px;
+    border-radius: 15px;
+    background: rgb(115 115 115 / 30%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgb(120 120 120 / 30%) 42%, rgb(51 51 51 / 30%) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(122 122 122 / 30%);
+}
+
+
+.bookItems__top{
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.bookItems__bottom>p{
+    color: white;
+    margin-bottom:  5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+.bookItems__image>img{
+    width: 100%;
+    height: 250px;
+}
+
+.bookItems__options{
+    padding-top: 5px;
+    border-top: 1px solid  rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+    padding:10px;
+}
+
+.bookItems__option>button{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 1.5rem;
+    flex: 1;
+    font-size: .72rem;
+    cursor: pointer;
+}
+
+.bookItems__option>p{
+        margin-left: 1px;
+}
+
+.bookItems__option:hover{
+    
+    border-radius: 1px;
+}
+
+
+@media screen and (max-width: 768px){
+    .bookItems{
+        margin-left: 10px;
+    }
+}
